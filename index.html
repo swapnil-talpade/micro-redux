@@ -7,7 +7,17 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app">heyyyy</div>
+    <div id="app">
+      <input
+        type="range"
+        name="slider"
+        id="slider"
+        min="0"
+        max="100"
+        style="width: 80vw"
+      />
+      <p>Value: <span id="slider-value">50</span></p>
+    </div>
     <script type="module" src="/src/index.ts"></script>
   </body>
 </html>
